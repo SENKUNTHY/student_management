@@ -1,0 +1,136 @@
+/* ////////////Table syle////////////// */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* ////////////button style/////////////// */
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.contant{
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 70px;
+}
+
+
+/* //////Search/////////////////// */
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-left: 70%;
+    top: 50px;
+}
+
+.searchTerm {
+    width: 20%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    /* margin-top: 200px; */
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+    margin-left: 17%;
+    /* margin-top: 50px; */
+}
+
+.titleAddStudent {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttonBackTOHome {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 60%;
+    /* margin-top: -40%; */
+}
